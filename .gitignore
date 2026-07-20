@@ -13,12 +13,12 @@ build/
 
 qa-*.png
 inner-*.png
-hero-*.png
-homepage-*.png
-products-card-*.png
-recipe-pickle-*.png
-story-section-*.png
-typography-story-*.png
+/hero-*.png
+/homepage-*.png
+/products-card-*.png
+/recipe-pickle-*.png
+/story-section-*.png
+/typography-story-*.png
 
 .DS_Store
 Thumbs.db
