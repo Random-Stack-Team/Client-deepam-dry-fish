@@ -112,6 +112,7 @@ export function Hero() {
               alt="Deepam dry fish packaged products on a coastal table"
               fill
               priority
+              unoptimized
               sizes="(max-width: 767px) 100vw, 55vw"
               className={styles.imageFill}
             />
@@ -222,6 +223,7 @@ export function StorySection() {
           src="/assets/images/story/hero-fishing-boats-background.png"
           alt="Traditional coastal fishing at sunset"
           fill
+          unoptimized
           sizes="(max-width: 1024px) 100vw, 55vw"
           className={styles.imageFill}
         />
