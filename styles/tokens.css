@@ -1,0 +1,73 @@
+:root {
+  --color-navy: #0b2545;
+  --color-navy-soft: #12365f;
+  --color-gold: #c8862d;
+  --color-gold-soft: #e8d9be;
+  --color-cream: #f7f2ea;
+  --color-white: #ffffff;
+  --color-body: #5b6b7c;
+  --color-line: #e8d9be;
+  --color-shadow: rgba(11, 37, 69, 0.12);
+  --color-shadow-soft: rgba(11, 37, 69, 0.08);
+
+  --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: Poppins, "Segoe UI", Arial, sans-serif;
+
+  --container: 1280px;
+  --topbar-height: 34px;
+  --header-height: 82px;
+  --hero-height: 520px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-18: 72px;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 8px 24px var(--color-shadow-soft);
+  --shadow-soft: 0 18px 42px var(--color-shadow);
+
+  --text-xxs: 10px;
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-md: 13px;
+  --text-base: 14px;
+  --text-body: 15px;
+  --text-h3: 22px;
+  --text-h2: 34px;
+  --text-hero: 60px;
+
+  --tracking-eyebrow: 0.18em;
+  --tracking-nav: 0.05em;
+  --tracking-button: 0.08em;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --text-hero: 50px;
+    --text-h2: 30px;
+    --hero-height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header-height: 74px;
+    --text-hero: 42px;
+    --text-h2: 28px;
+    --space-16: 48px;
+  }
+}
