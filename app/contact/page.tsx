@@ -18,15 +18,15 @@ export default function ContactPage() {
               <h2 className={styles.sectionTitle}>Get in Touch</h2>
               <p className={styles.contactLine}>
                 <Phone size={20} />
-                +91 99999 99999
+                +91 77079 97070
               </p>
               <p className={styles.contactLine}>
                 <Mail size={20} />
-                orders@deepamdryfish.com
+                Vasagam4144@gmail.com
               </p>
               <p className={styles.contactLine}>
                 <MapPin size={20} />
-                Tamil Nadu, India
+                137, Deepam Karuvadu Kadai, Ph Road, Avadi, Chennai 54
               </p>
             </div>
             <div className={styles.supportImage}>

@@ -45,7 +45,7 @@ export default async function ProductDetailsPage({
             <h1 className={styles.sectionTitle}>{product.name}</h1>
             <p className={styles.copy}>{product.longDescription}</p>
             <div className={styles.buttonRow}>
-              <Link className={styles.button} href="https://wa.me/919999999999">
+              <Link className={styles.button} href="https://wa.me/917707997070">
                 Enquiry on WhatsApp
               </Link>
               <Link className={styles.buttonOutline} href="/products">
