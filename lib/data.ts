@@ -41,13 +41,13 @@ export const products = [
     weight: "250g",
   },
   {
-    name: "Karuvadu Dry Fish",
-    slug: "karuvadu-dried-fish",
-    image: "/assets/images/products/karuvadu.webp",
+    name: "Masi Dry Fish",
+    slug: "masi-dry-fish",
+    image: "/assets/images/products/masi-dry-fish.png",
     description:
-      "Traditional sun-dried fish with rich taste and coastal aroma.",
+      "Smoky, sun-dried masi fish strips with deep coastal flavor.",
     longDescription:
-      "Our Karuvadu is carefully selected and traditionally sun-dried to preserve its authentic taste and texture. A versatile ingredient for curries, stir-fries, and more.",
+      "Our Masi Dry Fish is made from carefully selected tuna, traditionally dried to develop its bold aroma, firm texture, and naturally rich taste. It is ideal for masi sambal, kulambu, poriyal, stir-fries, and homestyle coastal recipes.",
     weight: "500g",
   },
   {
@@ -147,7 +147,7 @@ export const recipes = [
     image: "/assets/images/recipes/nethili-fry.webp",
   },
   {
-    title: "Karuvadu Kulambu",
+    title: "Masi Kulambu",
     image: "/assets/images/recipes/karuvadu-kulambu.webp",
   },
   {
@@ -160,7 +160,7 @@ export const gallery = [
   { title: "Dry Fish Selection", image: "/assets/images/products/nethili.webp" },
   { title: "Coastal Sourcing", image: "/assets/images/hero/hero-dry-fish-products.png" },
   { title: "Traditional Recipes", image: "/assets/images/recipes/fish-pickle.webp" },
-  { title: "Fresh Packing", image: "/assets/images/products/karuvadu.webp" },
+  { title: "Fresh Packing", image: "/assets/images/products/masi-dry-fish.png" },
 ] as const;
 
 export const testimonials = [
@@ -168,7 +168,7 @@ export const testimonials = [
     rating: 5,
     name: "Lakshmi Menon",
     location: "Kochi, Kerala",
-    text: "The taste of Karuvadu reminded me of my grandmother's cooking. Absolutely authentic and fresh. Deepam has become a permanent part of my kitchen.",
+    text: "The taste of Masi Dry Fish reminded me of my grandmother's cooking. Absolutely authentic and fresh. Deepam has become a permanent part of my kitchen.",
   },
   {
     rating: 5,
@@ -202,7 +202,7 @@ export const footerLinks: Record<string, { label: string; href: string }[]> = {
   ],
   Products: [
     { label: "Nethili Dry Fish", href: "/products/nethili-anchovy" },
-    { label: "Karuvadu Dry Fish", href: "/products/karuvadu-dried-fish" },
+    { label: "Masi Dry Fish", href: "/products/masi-dry-fish" },
     { label: "Vanjiram Dry Fish", href: "/products/vanjiram-kingfish" },
     { label: "Fish Pickles", href: "/products/fish-pickle" },
     { label: "Other Dry Fish", href: "/products/other-dry-fish" },

@@ -26,7 +26,7 @@ export default function ContactPage() {
               </p>
               <p className={styles.contactLine}>
                 <MapPin size={20} />
-                137, Deepam Karuvadu Kadai, Ph Road, Avadi, Chennai 54
+                137, Deepam Dry Fish, Ph Road, Avadi, Chennai 54
               </p>
             </div>
             <div className={styles.supportImage}>

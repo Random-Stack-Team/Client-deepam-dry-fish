@@ -10,7 +10,7 @@ export default function RecipesPage() {
       <PageHero
         eyebrow="Recipes"
         title="Simple recipes. Authentic taste."
-        copy="Karuvadu fry, kulambu, pickle ideas, and traditional coastal inspiration for everyday kitchens."
+        copy="Masi fry, kulambu, pickle ideas, and traditional coastal inspiration for everyday kitchens."
       />
       <section className={styles.section}>
         <div className={styles.container}>

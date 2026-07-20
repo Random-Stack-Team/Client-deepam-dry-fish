@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Deepam Dry Fish",
   },
   description:
-    "Premium traditional dry fish, karuvadu, fish pickles and coastal seafood products from Deepam Dry Fish.",
+    "Premium traditional dry fish, masi dry fish, fish pickles and coastal seafood products from Deepam Dry Fish.",
   openGraph: {
     title: "Deepam Dry Fish",
     description: "Authentic coastal taste, preserved with trust.",

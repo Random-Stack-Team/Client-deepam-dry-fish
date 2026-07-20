@@ -262,7 +262,7 @@ export function RecipesInstagramSplit() {
           ? "/assets/images/hero/hero-dry-fish-products.png"
           : index === 2
             ? "/assets/images/recipes/fish-pickle.webp"
-            : "/assets/images/products/karuvadu.webp",
+            : "/assets/images/products/masi-dry-fish.png",
   }));
 
   return (
