@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 
 import styles from "@/app/theme-pages.module.css";
 import { productProcess, products } from "@/lib/data";
+import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { Breadcrumb } from "@/components/seo/breadcrumb";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
@@ -47,6 +49,25 @@ export default async function ProductDetailsPage({
 
   return (
     <main className={styles.page}>
+      <ProductJsonLd
+        product={product}
+        url={`https://deepamdryfish.com/products/${product.slug}`}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://deepamdryfish.com" },
+          { name: "Products", url: "https://deepamdryfish.com/products" },
+          { name: product.name, url: `https://deepamdryfish.com/products/${product.slug}` },
+        ]}
+      />
+      <div className={styles.container}>
+        <Breadcrumb
+          items={[
+            { label: "Products", href: "/products" },
+            { label: product.name },
+          ]}
+        />
+      </div>
       <PageHero eyebrow="Product Details" title={product.name} copy={product.longDescription} />
       <section className={styles.section}>
         <div className={`${styles.container} ${styles.split}`}>

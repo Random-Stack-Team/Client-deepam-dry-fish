@@ -14,6 +14,9 @@ import {
   recipes,
   testimonials,
 } from "@/lib/data";
+import { faqData } from "@/lib/faq-data";
+import { FAQSection } from "@/components/seo/faq-section";
+import { FAQJsonLd } from "@/components/seo/json-ld";
 import styles from "./home.module.css";
 
 function Eyebrow({
@@ -394,6 +397,7 @@ export function LocalSEOSection() {
 export function HomeSections() {
   return (
     <main className={styles.page}>
+      <FAQJsonLd items={faqData} />
       <Hero />
       <TrustBand />
       <ProductsGrid />
@@ -402,6 +406,7 @@ export function HomeSections() {
       <RecipesInstagramSplit />
       <TestimonialsStrip />
       <LocalSEOSection />
+      <FAQSection items={faqData} />
     </main>
   );
 }

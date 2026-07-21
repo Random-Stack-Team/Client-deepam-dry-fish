@@ -4,6 +4,8 @@ import Link from "next/link";
 
 import styles from "@/app/theme-pages.module.css";
 import { products } from "@/lib/data";
+import { BreadcrumbJsonLd } from "@/components/seo/json-ld";
+import { Breadcrumb } from "@/components/seo/breadcrumb";
 
 export const metadata: Metadata = {
   title: "Our Products — Dry Fish, Karuvadu, Fish Pickles | Chennai, Avadi",
@@ -15,6 +17,15 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <main className={styles.page}>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://deepamdryfish.com" },
+          { name: "Products", url: "https://deepamdryfish.com/products" },
+        ]}
+      />
+      <div className={styles.container}>
+        <Breadcrumb items={[{ label: "Products" }]} />
+      </div>
       <PageHero
         eyebrow="Shop All Products"
         title="Authentic Coastal Treasure"
