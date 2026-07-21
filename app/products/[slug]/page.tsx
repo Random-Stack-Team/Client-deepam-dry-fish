@@ -19,12 +19,12 @@ export async function generateMetadata({
   const product = products.find((item) => item.slug === slug);
   if (!product) return {};
   return {
-    title: product.name,
-    description: product.longDescription,
+    title: `${product.name} — Buy Online in Chennai | Deepam Dry Fish Avadi`,
+    description: `Buy ${product.name} online from Deepam Dry Fish, Avadi, Chennai. ${product.longDescription} Free delivery in Chennai. Call 7707997070.`,
     alternates: { canonical: `https://deepamdryfish.com/products/${product.slug}` },
     openGraph: {
-      title: `${product.name} | Deepam Dry Fish`,
-      description: product.longDescription,
+      title: `${product.name} | Deepam Dry Fish Avadi Chennai`,
+      description: `Buy ${product.name} from Deepam Dry Fish — best dry fish shop in Avadi, Chennai. ${product.longDescription}`,
       images: [{ url: product.image, width: 800, height: 600, alt: product.name }],
     },
   };

@@ -5,9 +5,9 @@ import styles from "@/app/theme-pages.module.css";
 import { productProcess } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Our Story",
+  title: "Our Story — Traditional Dry Fish Heritage | Deepam Dry Fish Chennai",
   description:
-    "Learn about Deepam Dry Fish — a tradition passed down through generations. Discover how we preserve the authentic taste of coastal seafood with trust and quality.",
+    "Learn about Deepam Dry Fish — a tradition passed down through generations. Discover how Chennai's trusted dry fish shop in Avadi preserves authentic coastal taste with trust and quality.",
   alternates: { canonical: "https://deepamdryfish.com/our-story" },
 };
 

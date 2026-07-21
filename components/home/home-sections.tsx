@@ -350,6 +350,47 @@ export function TestimonialsStrip() {
   );
 }
 
+export function LocalSEOSection() {
+  return (
+    <section className={styles.localSeo}>
+      <div className={styles.container}>
+        <SectionHeading
+          eyebrow="Visit Our Shop"
+          title="Best Dry Fish Shop in Avadi, Chennai"
+          copy="Deepam Dry Fish is a trusted dry fish retailer at PH Road, Avadi, Chennai. We offer premium quality karuvadu, nethili, vanjiram, masi dry fish, and fish pickles — hygienically processed and delivered fresh to your doorstep."
+        />
+        <div className={styles.localGrid}>
+          <div className={styles.localCard}>
+            <h3 className={styles.localCardTitle}>Our Location</h3>
+            <p className={styles.localCardCopy}>
+              137, Deepam Karuvadu Kadai,<br />
+              PH Road, Avadi,<br />
+              Chennai — 600054
+            </p>
+          </div>
+          <div className={styles.localCard}>
+            <h3 className={styles.localCardTitle}>Why Choose Us</h3>
+            <ul className={styles.localCardList}>
+              <li>100% Quality Assured Products</li>
+              <li>Traditional Sun-Dried Methods</li>
+              <li>No Preservatives or Artificial Colors</li>
+              <li>Free Delivery in Chennai</li>
+            </ul>
+          </div>
+          <div className={styles.localCard}>
+            <h3 className={styles.localCardTitle}>Contact Us</h3>
+            <p className={styles.localCardCopy}>
+              Call: +91 77079 97070<br />
+              Email: Vasagam4144@gmail.com<br />
+              WhatsApp: +91 77079 97070
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function HomeSections() {
   return (
     <main className={styles.page}>
@@ -360,6 +401,7 @@ export function HomeSections() {
       <AudienceRow />
       <RecipesInstagramSplit />
       <TestimonialsStrip />
+      <LocalSEOSection />
     </main>
   );
 }

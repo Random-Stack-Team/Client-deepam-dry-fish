@@ -2,9 +2,17 @@ import type { Metadata } from "next";
 import { HomeSections } from "@/components/home/home-sections";
 
 export const metadata: Metadata = {
-  title: "Deepam Dry Fish | Premium Dry Fish & Coastal Seafood Online",
+  title: "Deepam Dry Fish | Best Dry Fish in Chennai, Avadi — Premium Karuvadu & Seafood Online",
   description:
-    "Buy premium dry fish, karuvadu, nethili, vanjiram, fish pickles and traditional coastal seafood products online from Deepam Dry Fish. 100% quality assured, hygienically processed. Free shipping above ₹999.",
+    "Deepam Dry Fish — best dry fish shop in Avadi, Chennai. Buy premium karuvadu, nethili, vanjiram, masi dry fish, and fish pickles online. 100% quality assured, hygienically processed. Free delivery in Chennai. Call 7707997070.",
+  keywords: [
+    "best dry fish in chennai",
+    "dry fish shop in avadi",
+    "buy dry fish online chennai",
+    "karuvadu shop avadi",
+    "nethili dry fish chennai",
+    "Deepam Dry Fish",
+  ],
   alternates: { canonical: "https://deepamdryfish.com" },
 };
 

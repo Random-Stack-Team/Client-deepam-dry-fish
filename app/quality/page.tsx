@@ -5,9 +5,9 @@ import styles from "@/app/theme-pages.module.css";
 import { productProcess, qualityHighlights } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Quality Promise",
+  title: "Quality Promise — Hygienic Dry Fish | Deepam Dry Fish Avadi Chennai",
   description:
-    "Discover the Deepam quality promise — authentic recipes, premium quality fish, naturally preserved with no artificial additives. Hygienically processed and delivered with trust.",
+    "Deepam Dry Fish quality promise — authentic recipes, premium quality fish, naturally preserved. No artificial additives. Trusted dry fish shop in Avadi, Chennai. Call 7707997070.",
   alternates: { canonical: "https://deepamdryfish.com/quality" },
 };
 

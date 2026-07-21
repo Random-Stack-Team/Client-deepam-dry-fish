@@ -6,9 +6,9 @@ import styles from "@/app/theme-pages.module.css";
 import { recipes } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Recipes & Inspiration",
+  title: "Recipes — Nethili Fry, Karuvadu Kulambu | Deepam Dry Fish Chennai",
   description:
-    "Try authentic coastal recipes with Deepam Dry Fish — Nethili Fry, Karuvadu Kulambu, Fish Pickle, and more traditional seafood preparations for everyday kitchens.",
+    "Try authentic coastal recipes with Deepam Dry Fish — Nethili Fry, Masi Kulambu, Fish Pickle. Traditional seafood recipes from Chennai's trusted dry fish shop in Avadi.",
   alternates: { canonical: "https://deepamdryfish.com/recipes" },
 };
 

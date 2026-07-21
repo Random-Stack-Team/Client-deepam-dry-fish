@@ -5,9 +5,9 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import styles from "@/app/theme-pages.module.css";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact Us — Dry Fish Shop in Avadi, Chennai | Deepam Dry Fish",
   description:
-    "Get in touch with Deepam Dry Fish for retail orders, bulk enquiries, restaurant supply, catering needs, and export discussions. Call +91 77079 97070 or visit us in Avadi, Chennai.",
+    "Contact Deepam Dry Fish — best dry fish shop in Avadi, Chennai. Call +91 77079 97070 for bulk orders, retail enquiry, restaurant supply. Visit us at PH Road, Avadi, Chennai 54.",
   alternates: { canonical: "https://deepamdryfish.com/contact" },
 };
 

@@ -6,9 +6,9 @@ import styles from "@/app/theme-pages.module.css";
 import { products } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Our Products",
+  title: "Our Products — Dry Fish, Karuvadu, Fish Pickles | Chennai, Avadi",
   description:
-    "Explore our range of premium dry fish — Nethili, Karuvadu, Vanjiram, Fish Pickles, and more. Traditional coastal seafood, hygienically processed and delivered fresh.",
+    "Shop premium dry fish in Chennai — Nethili, Karuvadu, Vanjiram, Masi, Fish Pickles. Best quality dry fish from Avadi, Chennai. Free delivery. Call 7707997070.",
   alternates: { canonical: "https://deepamdryfish.com/products" },
 };
 
