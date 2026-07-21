@@ -13,7 +13,7 @@ export function SiteFooter() {
             <div className={styles.brand}>
               <div className={styles.brandLogo}>
                 <Image
-                  src="/logo/logo-mark.png"
+                  src="/logo/logo-mark.webp"
                   alt="Deepam Dry Fish"
                   width={220}
                   height={118}

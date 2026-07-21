@@ -4,6 +4,7 @@ import "./globals.css";
 
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { GoogleAnalytics } from "@/components/seo/google-analytics";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -141,7 +142,7 @@ export default function RootLayout({
       longitude: 80.097,
     },
     image: `${siteUrl}/assets/images/hero/og-image.webp`,
-    logo: `${siteUrl}/logo/logo-mark.png`,
+    logo: `${siteUrl}/logo/logo-mark.webp`,
     priceRange: "₹50-₹500",
     currenciesAccepted: "INR",
     paymentAccepted: "Cash, UPI, Card",
@@ -267,6 +268,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <GoogleAnalytics />
         <SiteHeader />
         {children}
         <SiteFooter />

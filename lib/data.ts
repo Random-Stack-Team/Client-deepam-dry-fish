@@ -43,7 +43,7 @@ export const products = [
   {
     name: "Masi Dry Fish",
     slug: "masi-dry-fish",
-    image: "/assets/images/products/masi-dry-fish.png",
+    image: "/assets/images/products/masi-dry-fish.webp",
     description:
       "Smoky, sun-dried masi fish strips with deep coastal flavor.",
     longDescription:
@@ -73,7 +73,7 @@ export const products = [
   {
     name: "Other Dry Fish",
     slug: "other-dry-fish",
-    image: "/assets/images/products/dry-prawn-cropped.png",
+    image: "/assets/images/products/dry-prawn-cropped.webp",
     description:
       "Explore our wide variety of premium dry fish selections.",
     longDescription:
@@ -158,9 +158,9 @@ export const recipes = [
 
 export const gallery = [
   { title: "Dry Fish Selection", image: "/assets/images/products/nethili.webp" },
-  { title: "Coastal Sourcing", image: "/assets/images/hero/hero-dry-fish-products.png" },
+  { title: "Coastal Sourcing", image: "/assets/images/hero/hero-dry-fish-products.webp" },
   { title: "Traditional Recipes", image: "/assets/images/recipes/fish-pickle.webp" },
-  { title: "Fresh Packing", image: "/assets/images/products/masi-dry-fish.png" },
+  { title: "Fresh Packing", image: "/assets/images/products/masi-dry-fish.webp" },
 ] as const;
 
 export const testimonials = [

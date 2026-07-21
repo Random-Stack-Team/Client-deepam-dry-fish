@@ -21,7 +21,7 @@ function BrandLogo() {
   return (
     <span className={styles.logo}>
       <Image
-        src="/logo/logo-mark.png"
+        src="/logo/logo-mark.webp"
         alt="Deepam Dry Fish"
         width={220}
         height={118}

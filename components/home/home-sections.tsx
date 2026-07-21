@@ -111,7 +111,7 @@ export function Hero() {
         <div className={styles.heroVisual}>
           <div className={styles.heroImageWrap}>
             <Image
-              src="/assets/images/hero/hero-dry-fish-products.png"
+              src="/assets/images/hero/hero-dry-fish-products.webp"
               alt="Deepam dry fish packaged products on a coastal table"
               fill
               priority
@@ -223,7 +223,7 @@ export function StorySection() {
       </div>
       <div className={styles.storyImage}>
         <Image
-          src="/assets/images/story/hero-fishing-boats-background.png"
+          src="/assets/images/story/hero-fishing-boats-background.webp"
           alt="Traditional coastal fishing at sunset"
           fill
           unoptimized
@@ -264,10 +264,10 @@ export function RecipesInstagramSplit() {
       index === 0
         ? "/assets/images/products/nethili.webp"
         : index === 1
-          ? "/assets/images/hero/hero-dry-fish-products.png"
+          ? "/assets/images/hero/hero-dry-fish-products.webp"
           : index === 2
             ? "/assets/images/recipes/fish-pickle.webp"
-            : "/assets/images/products/masi-dry-fish.png",
+            : "/assets/images/products/masi-dry-fish.webp",
   }));
 
   return (

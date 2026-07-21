@@ -118,7 +118,7 @@ export function LocalBusinessJsonLd() {
       longitude: 80.097,
     },
     image: "https://deepamdryfish.com/assets/images/hero/og-image.webp",
-    logo: "https://deepamdryfish.com/logo/logo-mark.png",
+    logo: "https://deepamdryfish.com/logo/logo-mark.webp",
     priceRange: "₹50-₹500",
     openingHoursSpecification: [
       {

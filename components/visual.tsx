@@ -4,7 +4,7 @@ export function LogoMark({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <Image
-        src="/logo/logo-mark.png"
+        src="/logo/logo-mark.webp"
         alt="Deepam Dry Fish"
         width={40}
         height={40}
@@ -27,7 +27,7 @@ export function FooterLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <Image
-        src="/logo/logo-mark.png"
+        src="/logo/logo-mark.webp"
         alt="Deepam Dry Fish"
         width={48}
         height={48}
