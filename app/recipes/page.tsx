@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 import styles from "@/app/theme-pages.module.css";
 import { recipes } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Recipes & Inspiration",
+  description:
+    "Try authentic coastal recipes with Deepam Dry Fish — Nethili Fry, Karuvadu Kulambu, Fish Pickle, and more traditional seafood preparations for everyday kitchens.",
+  alternates: { canonical: "https://deepamdryfish.com/recipes" },
+};
 
 export default function RecipesPage() {
   return (

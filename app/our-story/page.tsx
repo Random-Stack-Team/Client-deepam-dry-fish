@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 
 import styles from "@/app/theme-pages.module.css";
 import { productProcess } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Our Story",
+  description:
+    "Learn about Deepam Dry Fish — a tradition passed down through generations. Discover how we preserve the authentic taste of coastal seafood with trust and quality.",
+  alternates: { canonical: "https://deepamdryfish.com/our-story" },
+};
 
 export default function OurStoryPage() {
   return (

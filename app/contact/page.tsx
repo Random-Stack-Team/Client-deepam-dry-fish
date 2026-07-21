@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
 
 import styles from "@/app/theme-pages.module.css";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with Deepam Dry Fish for retail orders, bulk enquiries, restaurant supply, catering needs, and export discussions. Call +91 77079 97070 or visit us in Avadi, Chennai.",
+  alternates: { canonical: "https://deepamdryfish.com/contact" },
+};
 
 export default function ContactPage() {
   return (

@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
 import styles from "@/app/theme-pages.module.css";
 import { products } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Our Products",
+  description:
+    "Explore our range of premium dry fish — Nethili, Karuvadu, Vanjiram, Fish Pickles, and more. Traditional coastal seafood, hygienically processed and delivered fresh.",
+  alternates: { canonical: "https://deepamdryfish.com/products" },
+};
 
 export default function ProductsPage() {
   return (

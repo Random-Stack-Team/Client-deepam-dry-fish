@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -7,6 +8,26 @@ import { productProcess, products } from "@/lib/data";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const product = products.find((item) => item.slug === slug);
+  if (!product) return {};
+  return {
+    title: product.name,
+    description: product.longDescription,
+    alternates: { canonical: `https://deepamdryfish.com/products/${product.slug}` },
+    openGraph: {
+      title: `${product.name} | Deepam Dry Fish`,
+      description: product.longDescription,
+      images: [{ url: product.image, width: 800, height: 600, alt: product.name }],
+    },
+  };
 }
 
 export default async function ProductDetailsPage({

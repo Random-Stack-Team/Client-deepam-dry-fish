@@ -1,24 +1,26 @@
 import type { MetadataRoute } from "next";
 
+const siteUrl = "https://deepamdryfish.com";
+
 const routes = [
-  "",
-  "/our-story",
-  "/products",
-  "/products/nethili-anchovy",
-  "/products/masi-dry-fish",
-  "/products/vanjiram-kingfish",
-  "/products/fish-pickle",
-  "/products/other-dry-fish",
-  "/quality",
-  "/recipes",
-  "/contact",
+  { path: "", priority: 1, changeFrequency: "weekly" as const },
+  { path: "/our-story", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/products", priority: 0.9, changeFrequency: "weekly" as const },
+  { path: "/products/nethili-anchovy", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/products/karuvadu-dried-fish", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/products/vanjiram-kingfish", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/products/fish-pickle", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/products/other-dry-fish", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/quality", priority: 0.7, changeFrequency: "monthly" as const },
+  { path: "/recipes", priority: 0.7, changeFrequency: "monthly" as const },
+  { path: "/contact", priority: 0.7, changeFrequency: "monthly" as const },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map((route) => ({
-    url: `https://deepamdryfish.com${route}`,
+  return routes.map(({ path, priority, changeFrequency }) => ({
+    url: `${siteUrl}${path}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: route === "" ? 1 : 0.8,
+    changeFrequency,
+    priority,
   }));
 }

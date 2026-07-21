@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 
 import styles from "@/app/theme-pages.module.css";
 import { productProcess, qualityHighlights } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "Quality Promise",
+  description:
+    "Discover the Deepam quality promise — authentic recipes, premium quality fish, naturally preserved with no artificial additives. Hygienically processed and delivered with trust.",
+  alternates: { canonical: "https://deepamdryfish.com/quality" },
+};
 
 export default function QualityPage() {
   return (
